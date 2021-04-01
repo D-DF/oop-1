@@ -23,9 +23,9 @@ const prinInfo = (personne) => {
     console.log(`Prenom : ${personne.firstName}, nom : ${personne.lastName}, age : ${personne.age}`);
 }
 
-// prinInfo(alice)
-// prinInfo(bob)
-// prinInfo(charlie)
+prinInfo(alice)
+prinInfo(bob)
+prinInfo(charlie)
 
 const canVote = (personne) => {
     if(personne.age >= 18) {
@@ -34,9 +34,9 @@ const canVote = (personne) => {
         return false
     }
 }
-// console.log(canVote(alice))
-// console.log(canVote(bob))
-// console.log(canVote(charlie))
+console.log(canVote(alice))
+console.log(canVote(bob))
+console.log(canVote(charlie))
 
 const mostSkilledDev = (personne1, personne2) => {
     const lang  = personne1.language.length;

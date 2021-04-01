@@ -18,7 +18,7 @@ class Human {
         }
     }
 
-    mostSkilledDev = (personn2) => {
+    mostSkilledDev  = (personn2) => {
         const lang  = this.language.length;
         const lang2 = personn2.language.length;
     
