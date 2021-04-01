@@ -40,3 +40,5 @@ alice.printInfo()
 console.log(charlie.canVote())
 console.log(bob.mostSkilledDev(alice))
 
+exports.Human = Human
+
